@@ -3,6 +3,7 @@ Basic Express Website Implemented in NodeJS
 
 ## Technologies Used:
 
-* node v8.2.1
+* node 8.2.1
 * express 4.15.5
 * pug 2.0.3
+* bootstrap 4.0
