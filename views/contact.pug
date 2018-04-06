@@ -1,0 +1,22 @@
+extends layout.pug
+
+block title
+	title Contact Page
+
+block content
+	.container
+		h1 Contact Us
+		p
+			| This is the contact page
+		hr
+		form(method='post',action='contact/send')
+			.form-group
+				label Name
+				input.form-control(type='text', name="name", placeholder='Enter Name')
+			.form-group
+				label Email
+				input.form-control(type='text', name="email", placeholder='Enter Email')
+			.form-group
+				label Message
+				textarea.form-control(name="message", placeholder='Enter Message')
+			button.btn.btn-default(type='submit') Submit

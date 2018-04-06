@@ -7,3 +7,4 @@ Basic Express Website Implemented in NodeJS
 * express 4.15.5
 * pug 2.0.3
 * bootstrap 4.0
+* nodemailer
